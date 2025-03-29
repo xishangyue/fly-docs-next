@@ -104,7 +104,7 @@ const config = {
         },
         theme: {
           customCss: [
-            require.resolve('./src/css/custom.css'),
+            './src/css/custom.css',
           ]
         },
         sitemap: {
@@ -196,7 +196,6 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
         links: [
           {
             title: '文档',
@@ -291,7 +290,7 @@ const config = {
           height: 64,
           href: 'https://mellow.klipper.cn',
         },
-        copyright: `Copyright © ${new Date().getFullYear()} 3D Mellow, Inc. All rights reserved`,
+        copyright: `Copyright © ${new Date().getFullYear()} 3D Mellow, Inc. All rights reserved</br><a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022093047号-1</a>`,
       },
       announcementBar: {
         id: `announcementBar-next`,
